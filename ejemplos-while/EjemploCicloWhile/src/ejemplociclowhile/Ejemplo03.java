@@ -31,10 +31,17 @@ public class Ejemplo03 {
             valor_ingresado = entrada.nextInt();
             suma = suma + valor_ingresado;
             System.out.printf("Valor ingresado %d\n", valor_ingresado);
-            contador = contador + 1;
+            //contador = contador + 1;
         }
 
         System.out.printf("La suma final es %d\n", suma);
+        /*
+        al inicio se declara 4 variables para definir el rango que se usara en 
+        el while
+        el codigo hace un rango del 1 al 5 donde en cada uno se ira sumando 
+        un numero que se ingresa en pantalla y al final se suma el valor de los
+        5 valores ingresados.
+        */
 
     }
 }
